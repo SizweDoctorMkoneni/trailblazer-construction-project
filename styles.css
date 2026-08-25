@@ -84,7 +84,7 @@ html,body{
         2. Navigation-logo-CTA
 --------------------------------------*/
 .Navigation-logo-CTA{
-	height: 75px;
+	height: 17vh;
 	background-color: #fff;
     border-bottom: transparent;
     box-shadow: 0 3px 15px rgba(0,0,0,.2);
@@ -92,7 +92,19 @@ html,body{
 }
 
 .logo{
-	font-size: 14px;
+	font-size: 12px;
+}
+
+.logo a{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-weight: 600;
+}
+
+.logo a img{
+	width: 60px;
+	height: 60px;
 }
 
 header{
@@ -109,7 +121,25 @@ header{
 }
 
 .navbar-collapse .nav li{
-	margin: 0 7px;
+	margin: 0 15px;
+}
+
+.navbar-collapse .nav li:hover{
+	border-bottom: 1px solid #505475;
+	cursor: pointer;
+}
+
+.CTA{
+	width: auto;
+	height: auto;
+	padding: 10px;
+	border: none;
+	border-radius: 10px;
+	background-color: #43485c;
+}
+
+.CTA a{
+	color: white;
 }
 
 /*-------------------------------------
