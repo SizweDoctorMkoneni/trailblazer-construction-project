@@ -132,10 +132,15 @@ header{
 .CTA{
 	width: auto;
 	height: auto;
-	padding: 10px;
+	padding: 20px;
 	border: none;
 	border-radius: 10px;
 	background-color: #43485c;
+}
+
+.CTA:hover{
+	cursor: pointer;
+	background-color: orange;
 }
 
 .CTA a{
@@ -182,10 +187,6 @@ header{
 	width: 150px;
 }
 
-.hero-btns button:hover{
-	cursor: pointer;
-}
-
 .hero-btns button:nth-of-type(1){
 	color: white;
 	background-color: #43485c;
@@ -194,12 +195,24 @@ header{
 	height: auto;
 }
 
+.hero-btns button:nth-of-type(1):hover{
+	cursor: pointer;
+	background-color: orange;
+}
+
 .hero-btns button:nth-of-type(2){
 	color: #43485c;
 	border: 1px solid #43485c;
 	border-radius: 10px;
 	padding: 20px;
 	height: auto;
+}
+
+.hero-btns button:nth-of-type(2):hover{
+	cursor: pointer;
+	background-color: orange;
+	color: white;
+	border: none;
 }
 
 /*-------------------------------------
@@ -244,7 +257,7 @@ header{
 .about-content .image{
 	width: 48%;
 	padding: 40px;
-	height: 100%;
+	height: auto;
 }
 
 .about-content .image img{
@@ -263,6 +276,78 @@ header{
 /*-------------------------------------
         5.  Our-services
 --------------------------------------*/
+
+.services{
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	align-items: center;
+	justify-content: center;
+}
+
+.services-container{
+	display: flex;
+	flex-direction: column;
+	padding: 40px;
+}
+
+.services-header{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.services-header h4{
+	border-bottom: 2px solid orange;
+}
+
+.services-header h1{
+	font-size: 2.5em;
+	text-align: center;
+	margin-top: 40px;
+}
+
+.services-content{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 40px;
+	align-items: center;
+	justify-content: center;
+	margin-top: 40px;
+	padding: 20px;
+	width: 100%;
+}
+
+.service-card{
+	width: 33%;
+	height: 270px;
+	position: relative;
+}
+
+.service-card img{
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
+}
+
+.service-card:hover img{
+	opacity: 0.4;
+}
+
+.service-card:hover h3{
+	display: block;
+}
+
+.service-card h3{
+	position: absolute;
+	top: 45%;
+	left: 37%;
+	color: #6a708e;
+	text-transform: uppercase;
+	font-size: 1.8em;
+	display: none;
+}
 /*-------------------------------------
         6.  Featured-projects
 --------------------------------------*/
