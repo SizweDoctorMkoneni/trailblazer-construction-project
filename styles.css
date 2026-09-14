@@ -585,7 +585,7 @@ header{
 
 .form-container{
 	display: flex;
-	width: 80%;
+	width: 95%;
 }
 
 .form-container form{
@@ -648,7 +648,32 @@ input[type="text"], input[type="email"], input[type="tel"], textarea{
 	width: 40%;
 	height: auto;
 	padding: 20px;
+	margin-top: 20px;
 	background-color: #6a708e;
 	border-radius: 10px;
 	color: #fff;
+}
+
+.form-container form .message-btn button:hover{
+	cursor: pointer;
+	background-color: orange;
+}
+
+/*-------------------------------------
+        9. footer
+-------------------------------------*/
+
+.footer{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: .3s ease;
+	height: 10vh;
+	margin-top: 30vh;
+}
+
+.footer-container{
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
