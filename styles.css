@@ -117,17 +117,17 @@ header{
 	align-items: center;
 }
 
-.navbar-collapse .nav{
+.nav{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
 }
 
-.navbar-collapse .nav li{
+.nav li{
 	margin: 0 15px;
 }
 
-.navbar-collapse .nav li:hover{
+.nav li:hover{
 	border-bottom: 1px solid #505475;
 	cursor: pointer;
 }
@@ -148,6 +148,10 @@ header{
 
 .CTA a{
 	color: white;
+}
+
+.humburger-container{
+	display: none;
 }
 
 /*-------------------------------------

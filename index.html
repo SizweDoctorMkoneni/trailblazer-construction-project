@@ -7,6 +7,10 @@
     
     <!-- Stylesheet -->
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="responsive.css">
+
+    <!-- Font awesome library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     </head>
 
     <body>
@@ -15,22 +19,23 @@
             <div class="logo">
                 <a href="#home">
                     <img src="images/logo.jpg" alt="trailblazer Construction logo">
-                    TRAILBLAZER CONSTRUCTION</a>
+                    TRAILBLAZER CONSTRUCTION
+                </a>
             </div>
-            <nav class="navbar">
-                <div class="navbar-collapse">
-                    <ul class="nav">
-                        <li><a href="#home">HOME</a></li>
-                        <li><a href="#about-us">ABOUT US</a></li>
-                        <li><a href="#services">SERVICES</a></li>
-                        <li><a href="#projects">PROJECTS</a></li>
-                        <li><a href="#contact-us">CONTACT US</a></li>
-                    </ul>
-                </div>
-            </nav>
+            <ul class="nav">
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#about-us">ABOUT US</a></li>
+                <li><a href="#services">SERVICES</a></li>
+                <li><a href="#projects">PROJECTS</a></li>                        <li><a href="#contact-us">CONTACT US</a></li>
+            </ul>
             <button class="CTA">
                 <a href="#">076 459 2286</a>
             </button>
+
+            <div class="humburger-container">
+                    <i class="fa-solid fa-bars humburger-menu"></i>
+                    <i class="fa-solid fa-xmark remove-menu"></i>
+            </div>
          </header>
         <!-- Navigation-logo section end -->
 
@@ -194,5 +199,7 @@
             </div>
         </section>
         <!-- Footer section end -->
+
+        <script src="script.js"></script>
     </body>
 </html>
