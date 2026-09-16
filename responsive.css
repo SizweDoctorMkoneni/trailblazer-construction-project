@@ -1,31 +1,27 @@
 /*******************************
-    Small Mobile Devices
+    Medium Mobile Devices
 ********************************/
-@media (max-width: 320px) {
-    body{
-	    font-size:14px;
-    } 
-
-    .Navigation-logo-CTA{
-        height: 15vh;
-        padding: 0 10px;
+@media (max-width: 768px){
+.Navigation-logo-CTA{
+        height: 17vh;
+        padding: 0 35px;
         width: 100%;
     }
 
     .logo{
-        width: 90px;
-        height: 30px;
+        width: 97px;
+        height: 37px;
         text-align: center;
     }
 
     .logo a{
-        font-size: 0.7rem;
+        font-size: 1rem;
         width: 100%;
     }
 
     .logo a img{
-        width: 25px;
-        height: 25px;
+        width: 29px;
+        height: 29px;
     }
 
     .nav{
@@ -37,19 +33,23 @@
         margin: 15px 5px;
     }
 
+    .nav li a{
+        font-size: 1rem;
+    }
+
     .CTA{
         display: none;
     }
 
     .humburger-container{
         display: flex;
-        width: 30px;
-        height: 30px;
+        width: 36px;
+        height: 36px;
     }
 
     .humburger-container i{
         color: #43485c;
-        font-size: 1.8rem;
+        font-size: 2rem;
         width: 100%;
         height: 100%;
     }
@@ -64,8 +64,8 @@
 
     .humburger-container.active .remove-menu{
         display: flex;
-        width: 40px;
-        height: 40px;
+        width: 43px;
+        height: 43px;
         position: relative;
         z-index: 2;
     }
@@ -78,12 +78,145 @@
         display: flex;
         flex-direction: column;
         position: absolute;
-        top: 15vh;
+        top: 16vh;
         left: 0;
         width: 100%;
         height: 40vh;
         background-color: #fff;
         border-bottom: transparent;
-        box-shadow: 0 3px 15px rgba(0,0,0,.2);
+        padding: 20px;
+    }
+}
+
+/*******************************
+    Medium Mobile Devices
+********************************/
+@media (max-width: 425px){
+.Navigation-logo-CTA{
+        height: 17vh;
+        padding: 0 30px;
+    }
+
+    .logo{
+        width: 96px;
+        height: 36px;
+    }
+
+    .logo a{
+        font-size: 0.9rem;
+    }
+
+    .logo a img{
+        width: 27px;
+        height: 27px;
+    }
+
+    .humburger-container{
+        width: 34px;
+        height: 34px;
+    }
+
+    .humburger-container i{
+        font-size: 1.9rem;
+    }
+
+    .humburger-container.active .remove-menu{
+        width: 41px;
+        height: 41px;
+    }
+
+    .nav.active{
+        top: 16vh;
+        padding: 20px;
+    }
+}
+
+/*******************************
+    Medium Mobile Devices
+********************************/
+@media (max-width: 375px){
+.Navigation-logo-CTA{
+        height: 16vh;
+        padding: 0 15px;
+    }
+
+    .logo{
+        width: 95px;
+        height: 35px;
+    }
+
+    .logo a{
+        font-size: 0.8rem;
+    }
+
+    .logo a img{
+        width: 26px;
+        height: 26px;
+    }
+
+    .humburger-container{
+        display: flex;
+        width: 33px;
+        height: 33px;
+    }
+
+    .humburger-container i{
+        font-size: 1.9rem;
+    }
+
+    .humburger-container.active .remove-menu{
+        width: 40px;
+        height: 40px;
+    }
+
+    .nav.active{
+        top: 13vh;
+        left: 0;
+        padding: 20px;
+    }
+}
+
+/*******************************
+    Small Mobile Devices
+********************************/
+@media (max-width: 320px) {
+    .Navigation-logo-CTA{
+        height: 15vh;
+        padding: 0 10px;
+    }
+
+    .logo{
+        width: 90px;
+        height: 30px;
+    }
+
+    .logo a{
+        font-size: 0.7rem;
+    }
+
+    .logo a img{
+        width: 25px;
+        height: 25px;
+    }
+
+    .humburger-container{
+        width: 30px;
+        height: 30px;
+    }
+
+    .humburger-container i{
+        font-size: 1.8rem;
+    }
+
+    .humburger-container.active .remove-menu{
+        width: 40px;
+        height: 40px;
+    }
+
+    .nav.active{
+        top: 15vh;
+        left: 0;
+        width: 100%;
+        height: 40vh;
     }
 }

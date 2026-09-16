@@ -127,7 +127,7 @@ header{
 	margin: 0 15px;
 }
 
-.nav li:hover{
+.nav li a:hover{
 	border-bottom: 1px solid #505475;
 	cursor: pointer;
 }
