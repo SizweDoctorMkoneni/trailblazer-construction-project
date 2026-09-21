@@ -96,6 +96,9 @@ html,body{
 
 .logo{
 	font-size: 12px;
+	display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .logo a{
@@ -230,7 +233,6 @@ header{
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	height: auto;
 	transition: .3s ease;
 }
 
@@ -239,8 +241,7 @@ header{
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	height: auto;
-	margin-top: 20vh;
+	margin-top: 10vh;
 }
 
 .about-header{
@@ -294,7 +295,6 @@ header{
 .services{
 	display: flex;
 	flex-direction: column;
-	height: 100vh;
 	align-items: center;
 	justify-content: center;
 	transition: .3s ease;
@@ -304,7 +304,6 @@ header{
 	display: flex;
 	flex-direction: column;
 	padding: 40px;
-	height: 100vh;
 	margin-top: 40vh;
 }
 
@@ -373,7 +372,7 @@ header{
 .projects{
 	display: flex;
 	flex-direction: column;
-	height: 100vh;
+	height: auto;
 	align-items: center;
 	justify-content: center;
 	transition: .3s ease;
@@ -384,7 +383,7 @@ header{
 	display: flex;
 	flex-direction: column;
 	padding: 40px;
-	height: 100vh;
+	height: auto;
 	margin-top: 40vh;
 }
 
@@ -456,7 +455,6 @@ header{
 
 .cta{
 	display: flex;
-	height: 50vh;
 	align-items: center;
 	justify-content: center;
 	transition: .3s ease;
@@ -546,7 +544,6 @@ header{
 .contact-us{
 	display: flex;
 	flex-direction: column;
-	height: 100vh;
 	align-items: center;
 	justify-content: center;
 	transition: .3s ease;
@@ -558,7 +555,6 @@ header{
 	flex-direction: column;
 	align-items: center;
 	padding: 40px;
-	height: 100vh;
 	margin-top: 40vh;
 }
 
@@ -672,7 +668,6 @@ input[type="text"], input[type="email"], input[type="tel"], textarea{
 	align-items: center;
 	justify-content: center;
 	transition: .3s ease;
-	height: 10vh;
 	margin-top: 30vh;
 }
 

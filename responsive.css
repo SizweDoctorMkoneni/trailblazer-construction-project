@@ -182,13 +182,13 @@
 ********************************/
 @media (max-width: 320px) {
     .Navigation-logo-CTA{
-        height: 15vh;
+        height: 13vh;
         padding: 0 30px;
     }
 
     .logo{
         width: 100px;
-        height: 30px;
+        height: 75px;
     }
 
     .logo a{
@@ -216,10 +216,12 @@
     }
 
     .nav.active{
-        top: 15vh;
+        top: 12vh;
         left: 0;
         width: 100%;
         height: 50vh;
+        padding: 20px 35px;
+        box-shadow: 0 15px 15px -9px rgba(0,0,0,.2);
     }
 
     .hero-content{
@@ -267,16 +269,14 @@
     }
 
     .about{
-        display: flex;
-        height: 100%;
+        scroll-margin-top: 100px;
     }
 
     .about-container{
         width: 100%;
         height: auto;
         justify-content: space-between;
-        margin-bottom: 30px;
-
+        margin-top: 5vh;
     }
 
     .about-header{
@@ -312,4 +312,132 @@
         width: 95%;
         margin-top: 30px;
     }
+
+    .services{
+        scroll-margin-top: 95px;
+    }
+
+    .services-container{
+        margin-top: 5vh;
+        padding: 10px;
+    }
+
+    .services-header{
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .services-header h1{
+        font-size: 1.2em;
+        margin-top: 17px;
+    }
+
+    .services-content{
+        flex-direction: column;
+        margin-top: 30px;
+        padding: 10px;
+        width: 100%;
+    }
+
+    .service-card{
+        width: 100%;
+    }
+
+    .service-card h3{
+        left: 20%;
+    }
+    
+    .projects{
+        scroll-margin-top: 95px;
+        height: auto;
+        margin-top: 0;
+    }
+
+    .projects-container{
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+
+    .projects-content{
+        margin: 60px 0;
+        width: 100%;
+        height: 100%;
+    }
+
+
+    .projects-header h1{
+        font-size: 1.2em;
+        margin-top: 30px;
+    }
+
+    .cta{
+        margin-top: 40px;
+    }
+
+    .cta-content{
+        padding: 40px 20px 30px 20px;
+    }
+
+    .cta-content p{
+        text-align: center;
+    }
+
+    .cta-btns{
+        flex-direction: column;
+    }
+
+    .cta-btns button{
+        margin: 0 20px 20px 20px;
+        width: 100%;
+    }
+
+    .contact-us{
+        scroll-margin-top: 95px;
+        margin-top: 0;
+    }
+
+    .contact-us-container{
+        margin-top: 40px;
+        padding: 20px;
+    }
+
+    .contact-us-header h1{
+        font-size: 1.2em;
+        margin-top: 17px;
+    }
+
+    .form-container form fieldset div{
+        font-size: 14px;
+    }
+
+    .form-container form fieldset div span{
+        margin-top: 5px;
+    }
+
+    input[type="text"], input[type="email"], input[type="tel"], textarea{
+        font-size: 14px;
+        color: #6a708e;
+    }
+
+    .form-container form .message-btn button{
+        width: 100%;
+    }
+
+    .footer{
+        margin-top: 0;
+    }
+
+    .footer-container{
+        flex-direction: column;
+        justify-content: space-around;
+        padding-bottom: 40px;
+    }
+
+    .footer-container .fa-heart{
+        color: red;
+    }
+
 }

@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () =>{
     });
 
     //close navigation menu when a link is clicked
-    navigationList.querySelectorAll('a li').forEach(item => {
+    navigationList.querySelectorAll('li a').forEach(item => {
         item.addEventListener('click', () => {
             humburgerMenu.classList.remove("active");
             navigationList.classList.remove("active");
