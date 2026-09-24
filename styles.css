@@ -241,7 +241,7 @@ header{
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	margin-top: 10vh;
+	margin-top: 17vh;
 }
 
 .about-header{
@@ -304,7 +304,7 @@ header{
 	display: flex;
 	flex-direction: column;
 	padding: 40px;
-	margin-top: 40vh;
+	margin-top: 17vh;
 }
 
 .services-header{
@@ -384,7 +384,7 @@ header{
 	flex-direction: column;
 	padding: 40px;
 	height: auto;
-	margin-top: 40vh;
+	margin-top: 17vh;
 }
 
 .projects-header{
@@ -552,7 +552,7 @@ header{
 	flex-direction: column;
 	align-items: center;
 	padding: 40px;
-	margin-top: 40vh;
+	margin-top: 17vh;
 }
 
 .contact-us-header{
@@ -671,5 +671,5 @@ input[type="text"], input[type="email"], input[type="tel"], textarea{
 .footer-container{
 	display: flex;
 	align-items: center;
-	justify-content: center;
+	justify-content: space-around;
 }
