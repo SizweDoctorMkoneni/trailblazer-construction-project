@@ -179,7 +179,7 @@
 ********************************/
 @media (max-width: 768px){
     .Navigation-logo-CTA{
-        height: 13vh;
+        height: 94px;
         padding: 0 35px;
         width: 100%;
     }
@@ -513,7 +513,7 @@
     }
 
     .Navigation-logo-CTA{
-        height: 17vh;
+        height: 93px;
         padding: 0 30px;
     }
 
@@ -551,7 +551,7 @@
 
 
     .nav.active{
-        top: 14vh;
+        top: 12vh;
         padding: 20px;
         height: 45vh;
     }
@@ -796,7 +796,7 @@
 ********************************/
 @media (max-width: 375px){
 .Navigation-logo-CTA{
-        height: 16vh;
+        height: 90px;
         padding: 0 40px;
     }
 
@@ -830,7 +830,7 @@
     }
 
     .nav.active{
-        top: 15vh;
+        top: 10vh;
         left: 0;
         padding: 40px;
         height: 50vh;
@@ -1060,7 +1060,7 @@
 ********************************/
 @media (max-width: 320px) {
     .Navigation-logo-CTA{
-        height: 11vh;
+        height: 300px;
         padding: 0 30px;
     }
 
