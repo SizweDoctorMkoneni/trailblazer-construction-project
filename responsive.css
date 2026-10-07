@@ -179,7 +179,7 @@
 ********************************/
 @media (max-width: 768px){
     .Navigation-logo-CTA{
-        height: 17vh;
+        height: 13vh;
         padding: 0 35px;
         width: 100%;
     }
@@ -193,11 +193,14 @@
     .logo a{
         font-size: 0.9rem;
         width: 100%;
+        flex-direction: row;
+        align-items: center;
     }
 
     .logo a img{
         width: 29px;
         height: 29px;
+        margin-right: 10px;
     }
 
     .nav{
@@ -254,7 +257,7 @@
         display: flex;
         flex-direction: column;
         position: absolute;
-        top: 16vh;
+        top: 10vh;
         left: 0;
         width: 100%;
         height: 45vh;
@@ -266,7 +269,8 @@
 
     .hero-content{
         width: 100%;
-        margin-top: 120px;
+        margin-top: 150px;
+        margin-bottom: 90px;
         padding-top: 10px 30px;
         align-items: center;
     }
@@ -1127,7 +1131,6 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-
     }
 
     .hero-btns button{
