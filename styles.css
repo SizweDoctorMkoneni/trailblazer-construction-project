@@ -405,25 +405,22 @@ header{
 }
 
 .projects-content{
-	width: 90%;
+	width: 75%;
 	overflow: hidden;
-	height: 90%;
-	margin: 60px auto;
+	height: 100%;
+	margin: 60px auto 30px auto;
 	border-radius: 10px;
 }
 
 .wrapper{
-	width: 100%;
 	display: flex;
+	width: 100%;
+	height: 480px;
 	animation: slide 16s infinite;
 }
 
-.wrapper img{
-	width: 100%;
-}
-
 @keyframes slide{
-    0%{
+	0%{
         transform: translate(0);
     }
     25%{
@@ -449,8 +446,112 @@ header{
     }
 }
 
+.project{
+	flex: 0 0 100%;
+	width: 100%;
+	position: relative;
+}
+
+.project img{
+	display: block;
+	object-fit: cover;
+}
+
+.project-details{
+	position: absolute;
+	bottom: 30%;
+	left: 37%;
+	display: flex;
+	flex-direction: column;
+}
+
+.project-details h4{
+	color: white;
+	font-size: 1.4rem;
+	margin-bottom: 30px;
+}
+
+.project-details button{
+	color: white;
+	background-color:#6a708e;
+	border: none;
+	border-radius: 10px;
+	padding: 15px;
+	height: auto;
+}
+
+.project-details button:hover{
+	cursor: pointer;
+	background-color: orange;
+	color: white;
+	border: none;
+}
+
+
 /*-------------------------------------
-        7. Call-to-action
+        7. Testimonials
+-------------------------------------*/
+
+.testimonials{
+	display: flex;
+	flex-direction: column;
+	height: auto;
+	align-items: center;
+	justify-content: center;
+	transition: .3s ease;
+	margin-top: 20vh;
+}
+
+.testimonials-container{
+	display: flex;
+	flex-direction: column;
+	padding: 40px;
+	height: auto;
+	margin-top: 17vh;
+}
+
+.testimonials-header{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.testimonials-header h4{
+	border-bottom: 2px solid orange;
+}
+
+.testimonials-header h1{
+	font-size: 2.5em;
+	text-align: center;
+	margin-top: 40px;
+}
+
+.testimonials-content{
+	width: 60%;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 80px auto 0 auto;
+}
+
+.testimonial-card{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	padding: 20px;
+	flex: 0 0 100%;
+	width: 100%;
+	position: relative;
+}
+
+.testimonial-card p{
+	margin-bottom: 5px;
+}
+
+/*-------------------------------------
+        8. Call-to-action
 -------------------------------------*/
 
 .cta{
