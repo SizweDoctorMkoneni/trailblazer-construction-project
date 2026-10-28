@@ -84,7 +84,7 @@ html,body{
         2. Navigation-logo-CTA
 --------------------------------------*/
 .Navigation-logo-CTA{
-	height: 17vh;
+	height: 10vh;
 	background-color: #fff;
     border-bottom: transparent;
     box-shadow: 0 3px 15px rgba(0,0,0,.2);
@@ -103,14 +103,15 @@ html,body{
 
 .logo a{
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	align-items: center;
 	font-weight: 600;
 }
 
 .logo a img{
-	width: 60px;
-	height: 60px;
+	width: 44px;
+	height: 44px;
+	margin-right: 10px;
 }
 
 header{
@@ -241,7 +242,7 @@ header{
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	margin-top: 17vh;
+	margin-top: 13vh;
 }
 
 .about-header{
@@ -304,7 +305,7 @@ header{
 	display: flex;
 	flex-direction: column;
 	padding: 40px;
-	margin-top: 17vh;
+	margin-top: 13vh;
 }
 
 .services-header{
@@ -384,7 +385,7 @@ header{
 	flex-direction: column;
 	padding: 40px;
 	height: auto;
-	margin-top: 17vh;
+	margin-top: 13vh;
 }
 
 .projects-header{
@@ -454,13 +455,13 @@ header{
 
 .project img{
 	display: block;
-	object-fit: cover;
+	width: 100%;
 }
 
 .project-details{
 	position: absolute;
 	bottom: 30%;
-	left: 37%;
+	left: 36%;
 	display: flex;
 	flex-direction: column;
 }
@@ -507,7 +508,7 @@ header{
 	flex-direction: column;
 	padding: 40px;
 	height: auto;
-	margin-top: 17vh;
+	margin-top: 13vh;
 }
 
 .testimonials-header{
@@ -536,6 +537,10 @@ header{
 	margin: 80px auto 0 auto;
 }
 
+.testimonials-content .wrapper{
+	height: 340px;
+}
+
 .testimonial-card{
 	display: flex;
 	flex-direction: column;
@@ -559,7 +564,8 @@ header{
 	align-items: center;
 	justify-content: center;
 	transition: .3s ease;
-	margin-top: 40vh;
+	height: 370px;
+	margin-top: 10vh;
 }
 
 .cta-container{
@@ -654,7 +660,7 @@ header{
 	flex-direction: column;
 	align-items: center;
 	padding: 40px;
-	margin-top: 17vh;
+	margin-top: 13vh;
 }
 
 .contact-us-header{
@@ -767,11 +773,15 @@ input[type="text"], input[type="email"], input[type="tel"], textarea{
 	align-items: center;
 	justify-content: center;
 	transition: .3s ease;
-	margin-top: 30vh;
+	margin-top: 20px;
+	padding-bottom: 30px;
 }
 
 .footer-container{
 	display: flex;
-	align-items: center;
-	justify-content: space-around;
+	flex-direction: row;
+}
+
+.footer-container p{
+	margin-left: 10px;
 }
