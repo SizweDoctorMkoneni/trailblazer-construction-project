@@ -6,9 +6,13 @@
         height: 15vh;
     }
 
+    .logo a{
+        flex-direction: column;
+    }
+
     .logo a img{
-        width: 50px;
-        height: 50px;
+        width: 44px;
+        height: 44px;
         margin-bottom: 5px;
     }
 
@@ -56,7 +60,8 @@
 
     .about-header h1{
         font-size: 2rem;
-        margin-top: 30px;
+        margin-top: 25px;
+        width: 90%;
     }
 
     .about-content .text{
@@ -71,8 +76,8 @@
 
     .services-header h1{
         font-size: 2rem;
-        margin-top: 30px;
-        width: 75%;
+        margin-top: 25px;
+        width: 90%;
     }
 
     .services-content{
@@ -102,15 +107,19 @@
     .projects-header h1{
         font-size: 2rem;
         margin-top: 30px;
-        width: 75%;
+        width: 90%;
     }
 
     .projects-content{
 	width: 80%;
 	overflow: hidden;
 	height: 100%;
-	margin: 60px auto 30px auto;
+	margin: 30px auto 30px auto;
 	border-radius: 10px;
+    }
+
+    .projects-content .wrapper{
+        width: 100%;
     }
 
     .project{
@@ -127,7 +136,7 @@
     .project-details{
         position: absolute;
         bottom: 30%;
-        left: 30%;
+        left: 23%;
         display: flex;
         flex-direction: column;
     }
@@ -153,6 +162,18 @@
         padding: 15px;
     }
 
+    .testimonials-container{
+        margin-top: 17vh;
+    }
+
+    .testimonials-header h1{
+        width: 90%;
+    }
+
+    .testimonials-content{
+        margin-top: 30px;
+    }
+
     .contact-us{
         margin-top: 15vh;
     }
@@ -165,10 +186,11 @@
     .contact-us-header h1{
         font-size: 2rem;
         margin-top: 30px;
+        width: 90%;
     }
 
     .form-container{
-        width: 60%;
+        width: 75%;
     }
 
     .form-container form fieldset div{
@@ -184,15 +206,15 @@
     }
 
     .footer{
-        margin-top: 10vh;
+        margin-top: 30px;
     }
 
     .footer-container{
         display: flex;
         align-items: center;
         justify-content: space-around;
-        width: 95%;
-        margin-bottom: 20px;
+        width: 60%;
+        margin-bottom: 10px;
     }
 }
 
