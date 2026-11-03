@@ -478,6 +478,10 @@
         text-align: center;
     }
 
+    .testimonials{
+        margin-top: 0;
+    }
+
     .testimonials-content{
         width: 70%;
     }
@@ -581,7 +585,7 @@
     }
 
     .Navigation-logo-CTA{
-        height: 90px;
+        height: 85px;
         padding: 0 30px;
     }
 
@@ -621,7 +625,7 @@
     .nav.active{
         top: 12vh;
         padding: 20px;
-        height: 45vh;
+        height: 50vh;
     }
 
     .hero-content{
@@ -632,7 +636,7 @@
     }
 
     .hero-content h1{
-        font-size: 1.9rem;
+        font-size: 1.8rem;
         line-height: 1.6;
         margin-bottom: 20px;
         width: 75%;
@@ -654,7 +658,7 @@
 
     .hero-btns button{
         margin-bottom: 20px;
-        width: 75%;
+        width: 55%;
         height: 44px;
         padding: 10px;
     }
@@ -676,7 +680,7 @@
         width: 100%;
         height: auto;
         justify-content: space-between;
-        margin-top: 40px;
+        margin-top: 25px;
     }
 
     .about-header{
@@ -719,7 +723,7 @@
     }
 
     .services-container{
-        margin-top: 5vh;
+        margin-top: 25px;
         padding: 10px;
     }
 
@@ -769,6 +773,10 @@
         height: 100%;
     }
 
+    .projects-content .wrapper{
+        height: 340px;
+    }
+
 
     .projects-header h1{
         font-size: 1.3em;
@@ -776,8 +784,54 @@
         width: 80%;
     }
 
+    .project-details{
+        position: absolute;
+        bottom: 30%;
+        left: 14%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 70%;
+    }
+
+    .project-details h4{
+        color: orange;
+        font-size: 1.4rem;
+        text-align: center;
+    }
+
+    .project-details button{
+        color: white;
+        background-color:#6a708e;
+        border: none;
+        border-radius: 10px;
+        padding: 15px;
+        height: auto;
+        width: 150px;
+    }
+
+    .testimonials-container{
+        padding-top: 30px;
+    }
+
+    .testimonials-header h1{
+        font-size: 1.3em;
+        margin-top: 20px;
+        width: 70%;
+    }
+
+    .testimonials-content{
+        width: 65%;
+    }
+
+    .testimonials-content .wrapper{
+        height: 300px;
+    }
+
     .cta{
-        margin-top: 40px;
+        margin-top: 55px;
+        height: 500px;
     }
 
     .cta-content{
@@ -799,7 +853,7 @@
 
     .cta-btns button{
         margin: 0 0 20px 0;
-        width: 80%;
+        width: 60%;
     }
 
     .cta-btns button:nth-of-type(1), .cta-btns button:nth-of-type(2){
@@ -839,6 +893,10 @@
         color: #6a708e;
     }
 
+    .form-container form .message-btn{
+        width: 60%;
+    }
+
     .form-container form .message-btn button{
         width: 100%;
         padding: 15px;
@@ -852,6 +910,12 @@
         flex-direction: column;
         justify-content: space-around;
         padding-bottom: 30px;
+    }
+
+    .footer-container p{
+        text-align: center;
+        margin: 0 0 7px 0;
+        line-height: 1.2;
     }
 
     .footer-container .fa-heart{
