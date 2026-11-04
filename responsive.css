@@ -586,8 +586,10 @@
 
     .Navigation-logo-CTA{
         height: 85px;
-        padding: 0 20px;
-        max-width: 425px;
+        padding: 30px;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
     }
 
     .logo{
