@@ -81,10 +81,8 @@ button {
 }
 
 html,body{
-    height: 100%;
 	position: relative;
 	width: 100%;
-	overflow: hidden;
 }
 
 /*-------------------------------------
@@ -101,6 +99,7 @@ html,body{
 	width: 100%;
 	box-sizing: border-box;
 	max-width: 100%;
+	overflow: hidden;
 }
 
 .logo{
@@ -133,7 +132,7 @@ header{
 .nav{
 	display: flex;
 	flex-direction: row;
-	justify-content: space-evenly;
+	justify-content: center;
 	width: 100%;
 	box-sizing: border-box;
 }
@@ -151,6 +150,8 @@ header{
 	width: auto;
 	height: auto;
 	padding: 15px;
+	flex-shrink: 0;
+	white-space: nowrap;
 	border: none;
 	border-radius: 10px;
 	background-color: #43485c;
