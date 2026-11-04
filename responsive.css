@@ -586,7 +586,8 @@
 
     .Navigation-logo-CTA{
         height: 85px;
-        padding: 0 30px;
+        padding: 0 20px;
+        max-width: 425px;
     }
 
     .logo{
@@ -626,6 +627,10 @@
         top: 12vh;
         padding: 20px;
         height: 50vh;
+    }
+
+    .CTA{
+        display: none;
     }
 
     .hero-content{
@@ -929,7 +934,7 @@
 @media (max-width: 375px){
 .Navigation-logo-CTA{
         height: 90px;
-        padding: 0 40px;
+        padding: 0 20px;
     }
 
     .logo{
@@ -1228,7 +1233,8 @@
 @media (max-width: 320px) {
     .Navigation-logo-CTA{
         height: 85px;
-        padding: 0 30px;
+        padding: 0 20px;
+        width: 100%;
     }
 
     .logo{
@@ -1438,8 +1444,8 @@
     }
 
     .testimonials-content{
-	width: 100%;
-}
+        width: 100%;
+    }
 
     .cta{
         margin-top: 67px;
