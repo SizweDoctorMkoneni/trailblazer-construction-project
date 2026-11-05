@@ -223,10 +223,22 @@
     Tablet Devices
 ********************************/
 @media (max-width: 768px){
+    html,
+    body{
+        width: 100%;
+        max-width: 100%;
+        overflow-x: hidden;
+        overflow-x: clip;
+    }
+
     .Navigation-logo-CTA{
         height: 85px;
         padding: 0 35px;
-        width: 100%;
+        left: 0;
+        right: 0;
+        width: auto;
+        max-width: 100%;
+        overflow: visible;
     }
 
     .logo{
@@ -301,10 +313,11 @@
     .nav.active{
         display: flex;
         flex-direction: column;
-        position: absolute;
+        position: fixed;
         top: 10vh;
         left: 0;
-        width: 100%;
+        right: 0;
+        width: auto;
         height: 55vh;
         background-color: #fff;
         border-bottom: transparent;
@@ -580,6 +593,11 @@
     Medium Mobile Devices
 ********************************/
 @media (max-width: 425px){
+    html,
+    body{
+        overflow-x: hidden;
+        overflow-x: clip;
+    }
 
     body{
         font-size: 14px;
@@ -590,7 +608,10 @@
         padding: 30px;
         display: flex;
         justify-content: space-between;
-        width: 100%;
+        left: 0;
+        right: 0;
+        width: auto;
+        max-width: 100%;
     }
 
     .logo{
@@ -628,6 +649,9 @@
 
     .nav.active{
         top: 12vh;
+        left: 0;
+        right: 0;
+        width: auto;
         padding: 20px;
         height: 50vh;
     }
