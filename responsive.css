@@ -450,7 +450,12 @@
         width: 70%;
     }
 
+    .service-card img{
+        filter: brightness(0.6);
+    }
+
     .service-card h3{
+        display: block;
         left: 37%;
     }
     

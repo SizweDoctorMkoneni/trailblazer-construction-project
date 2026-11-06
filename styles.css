@@ -370,7 +370,7 @@ header{
 }
 
 .service-card:hover img{
-	opacity: 0.3;
+	filter: brightness(0.8);
 }
 
 .service-card:hover h3{
@@ -381,7 +381,7 @@ header{
 	position: absolute;
 	top: 45%;
 	left: 33%;
-	color: #6a708e;
+	color: white;
 	text-transform: uppercase;
 	font-size: 1.8em;
 	display: none;
