@@ -596,7 +596,7 @@ header{
 	align-items: center;
 	justify-content: center;
 	transition: .3s ease;
-	height: 370px;
+	height: auto;
 	margin-top: 20vh;
 }
 
