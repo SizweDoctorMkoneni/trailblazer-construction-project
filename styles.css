@@ -179,6 +179,10 @@ header{
 	align-items: center;
 	justify-content: center;
 	height: 100vh;
+	background-image: url(images/bathroom.webp);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 .hero-content{
@@ -186,11 +190,13 @@ header{
 	display: flex;
 	flex-direction: column;
 	text-align: center;
-	margin-top: 100px;
+	margin-top: 70px;
+	padding: 20px;
+	background-color:aqua;
 }
 
 .hero-content h1{
-	font-size: 4em;
+	font-size: 3rem;
 	margin-bottom: 20px;
 }
 
@@ -221,12 +227,12 @@ header{
 
 .hero-btns button:nth-of-type(1):hover{
 	cursor: pointer;
-	background-color: orange;
+	background-color: #2e3244;
 }
 
 .hero-btns button:nth-of-type(2){
-	color: #43485c;
-	border: 1px solid #43485c;
+	color: white;
+	background-color: orange;
 	border-radius: 10px;
 	padding: 15px;
 	height: auto;
@@ -234,7 +240,7 @@ header{
 
 .hero-btns button:nth-of-type(2):hover{
 	cursor: pointer;
-	background-color: orange;
+	background-color: rgb(245, 159, 0);
 	color: white;
 	border: none;
 }

@@ -36,10 +36,11 @@
     .hero-content{
         width: 65%;
         margin-top: 150px;
+        margin-bottom: 50px;
     }
 
     .hero-content h1{
-        font-size: 3.2rem;
+        font-size: 2.8rem;
         margin-bottom: 30px;
     }
 
@@ -326,29 +327,29 @@
     }
 
     .hero-content{
-        width: 100%;
-        margin-top: 150px;
+        width: 80%;
+        margin-top: 130px;
         margin-bottom: 90px;
         padding-top: 10px 30px;
         align-items: center;
     }
 
     .hero-content h1{
-        font-size: 2.5rem;
+        font-size: 2.3rem;
         line-height: 1.6;
         margin-bottom: 20px;
-        width: 72%;
+        width: 95%;
     }
 
     .hero-content p{
         margin-bottom: 30px;
-        width: 60%;
+        width: 75%;
     }
 
     .hero-btns{
         width: 100%;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
         justify-content: center;
 
@@ -363,11 +364,13 @@
 
     .hero-btns button:nth-of-type(1){
         padding: 15px;
+        margin: 0 15px 20px 0;
     }
 
 
     .hero-btns button:nth-of-type(2){
         padding: 15px;
+        margin: 0 0 20px 15px;
     }
 
     .about{
@@ -661,22 +664,23 @@
     }
 
     .hero-content{
-        width: 100%;
+        width: 85%;
         margin-top: 120px;
         padding-top: 10px 30px;
         align-items: center;
+        margin-bottom: 30px;
     }
 
     .hero-content h1{
-        font-size: 1.8rem;
+        font-size: 1.6rem;
         line-height: 1.6;
         margin-bottom: 20px;
-        width: 75%;
+        width: 95%;
     }
 
     .hero-content p{
         margin-bottom: 30px;
-        width: 80%;
+        width: 85%;
     }
 
     .hero-btns{
@@ -697,11 +701,13 @@
 
     .hero-btns button:nth-of-type(1){
         padding: 15px;
+        margin: 0 0 15px 0;
     }
 
 
     .hero-btns button:nth-of-type(2){
         padding: 15px;
+        margin: 0 0 15px 0;
     }
 
     .about{
@@ -1001,17 +1007,17 @@
     }
 
     .hero-content{
-        width: 100%;
+        width: 85%;
         margin-top: 130px;
         padding-top: 10px 30px;
         align-items: center;
     }
 
     .hero-content h1{
-        font-size: 1.7rem;
+        font-size: 1.4rem;
         line-height: 1.7;
         margin-bottom: 20px;
-        width: 75%;
+        width: 95%;
     }
 
     .hero-content p{
@@ -1306,23 +1312,23 @@
     }
 
     .hero-content{
-        width: 100%;
+        width: 85%;
         margin-top: 120px;
         margin-bottom: 50px;
-        padding-top: 10px 30px;
+        padding-top: 20px;
         align-items: center;
     }
 
     .hero-content h1{
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         line-height: 1.7;
         margin-bottom: 20px;
-        width: 82%;
+        width: 95%;
     }
 
     .hero-content p{
-        margin-bottom: 50px;
-        width: 82%;
+        margin-bottom: 30px;
+        width: 90%;
     }
 
     .hero-btns{
