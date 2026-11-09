@@ -500,13 +500,17 @@ header{
 }
 
 .project-details button{
-	color: white;
+	
 	background-color:#6a708e;
 	border: none;
 	border-radius: 10px;
 	padding: 15px;
 	height: auto;
 	width: 150px;
+}
+
+.project-details button a{
+	color: white;
 }
 
 .project-details button:hover{
@@ -815,4 +819,64 @@ input[type="text"], input[type="email"], input[type="tel"], textarea{
 
 .footer-container p{
 	margin-left: 10px;
+}
+
+/*-------------------------------------
+        10. Project Gallery
+-------------------------------------*/
+
+.project-gallery{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	transition: .3s ease;
+}
+
+.project-gallery-container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 40px;
+	margin-top: 15vh;
+}
+
+.project-gallery-header{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.project-gallery-header h4{
+	border-bottom: 2px solid orange;
+}
+
+.project-gallery-header h1{
+	font-size: 2rem;
+	margin-top: 30px;
+	width: 85%;
+	text-align: center;
+}
+
+.project-gallery-content{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 40px;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+	margin: 30px;
+}
+
+.project-image{
+	display: flex;
+	width: 330px;
+	height: 330px;
+}
+
+.project-image img{
+	border-radius: 10px;
+	width: 100%;
+	height: 100%;
 }
