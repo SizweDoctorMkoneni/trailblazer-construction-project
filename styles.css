@@ -869,14 +869,53 @@ input[type="text"], input[type="email"], input[type="tel"], textarea{
 	margin: 30px;
 }
 
-.project-image{
+.project-gallery-content .image{
 	display: flex;
 	width: 330px;
 	height: 330px;
+	overflow: hidden;
+	cursor: pointer;
+	border-radius: 10px;
 }
 
-.project-image img{
-	border-radius: 10px;
+.project-gallery-content .image img{
 	width: 100%;
 	height: 100%;
+	object-fit: cover;
+	transition: .2s linear;
+}
+
+.project-gallery-content .image:hover img{
+	transform: scale(1.1);
+}
+
+.project-gallery-container .popup-image{
+    position: fixed;
+    top: 0; left: 0;
+    background: rgba(0,0,0,.9);
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+    display: none;
+}
+
+.project-gallery-container .popup-image i{
+    position: absolute;
+    top: 5%; right: 5%;
+    font-size: 30px;
+    font-weight: bolder;
+    color:  #fff;
+    cursor: pointer;
+    z-index: 100;
+}
+
+.project-gallery-container .popup-image img{
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid #fff;
+    border-radius: 5px;
+    width: 750px;
+	height: 550px;
+    object-fit: cover;
 }

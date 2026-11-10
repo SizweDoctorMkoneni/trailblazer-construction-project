@@ -27,4 +27,16 @@ document.addEventListener('DOMContentLoaded', () =>{
             navigationList.classList.remove("active");
         }
     });
+
+    // Popup image for project gallery
+    document.querySelectorAll(".project-gallery-content img").forEach(image => {
+        image.onclick = () =>{
+            document.querySelector(".popup-image").style.display = "block";
+            document.querySelector(".popup-image img").src = image.getAttribute("src");
+        }
+    });
+
+    document.querySelector(".popup-image i").onclick = () =>{
+            document.querySelector(".popup-image").style.display = "none";
+    }
 });

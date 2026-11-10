@@ -113,11 +113,11 @@
     }
 
     .projects-content{
-	width: 80%;
-	overflow: hidden;
-	height: 100%;
-	margin: 30px auto 30px auto;
-	border-radius: 10px;
+        width: 80%;
+        overflow: hidden;
+        height: 100%;
+        margin: 30px auto 30px auto;
+        border-radius: 10px;
     }
 
     .projects-content .wrapper{
@@ -145,6 +145,26 @@
 
     .project-details h4{
         text-align: center;
+    }
+
+    .project-gallery-container{
+        margin-top: 13vh;
+    }
+
+    .project-gallery-header h1{
+        font-size: 2rem;
+        margin-top: 30px;
+        width: 90%;
+    }
+
+    .project-gallery-content .image{
+        width: 270px;
+        height: 270px;
+    }
+
+    .project-gallery-container .popup-image img{
+        width: 80%;
+        height: 80%;
     }
 
     .cta{
@@ -504,6 +524,26 @@
         text-align: center;
     }
 
+    .project-gallery-container{
+        margin-top: 13vh;
+    }
+
+    .project-gallery-header h1{
+        font-size: 1.5em;
+        margin-top: 25px;
+        width: 80%;
+    }
+
+    .project-gallery-content .image{
+        width: 270px;
+        height: 270px;
+    }
+
+    .project-gallery-container .popup-image img{
+        width: 75%;
+        height: 75%;
+    }
+
     .testimonials{
         margin-top: 0;
     }
@@ -856,6 +896,25 @@
         width: 150px;
     }
 
+    .project-gallery-container{
+        margin-top: 80px;
+    }
+
+    .project-gallery-header h1{
+        font-size: 1.3em;
+        margin-top: 20px;
+        width: 80%;
+    }
+
+    .project-gallery-content .image{
+        width: 270px;
+        height: 270px;
+    }
+
+    .project-gallery-container .popup-image img{
+        height: 60%;
+    }
+
     .testimonials-container{
         padding-top: 30px;
     }
@@ -1169,6 +1228,10 @@
         width: 90%;
     }
 
+    .project-gallery-container .popup-image img{
+        height: 55%;
+    }
+
     .testimonials{
         scroll-margin-top: 95px;
     }
@@ -1475,6 +1538,11 @@
 
     .project-details h4{
         font-size: 1.1rem;
+    }
+
+    .project-gallery-container .popup-image img{
+        width: 95%;
+        height: 55%;
     }
 
     .testimonials-container{
