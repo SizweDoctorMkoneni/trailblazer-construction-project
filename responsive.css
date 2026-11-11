@@ -3,17 +3,20 @@
 ********************************/
 @media (max-width: 1024px){
     .Navigation-logo-CTA{
-        height: 15vh;
+        height: 16vh;
+        padding: 25px;
     }
 
     .logo a{
         flex-direction: column;
         text-align: center;
+        font-size: 0.8rem;
+        font-weight: 500;
     }
 
     .logo a img{
-        width: 40px;
-        height: 40px;
+        width: 36px;
+        height: 36px;
         margin-bottom: 5px;
     }
 
@@ -244,6 +247,37 @@
     }
 }
 
+@media (max-width: 896px){
+    .Navigation-logo-CTA{
+        padding: 0 28px;
+    }
+
+    .logo{
+        width: 90px;
+        height: 37px;
+    }
+
+    .logo a{
+        font-size: 0.8rem;
+    }
+
+    .logo a img{
+        margin: 0;
+    }
+
+    .nav li{
+        margin: 0 5px;
+    }
+
+    .nav li a{
+        font-size: 0.9rem;
+    }
+
+    .CTA a{
+        font-size: 0.8rem;
+    }
+}
+
 /*******************************
     Tablet Devices
 ********************************/
@@ -280,8 +314,8 @@
     }
 
     .logo a img{
-        width: 29px;
-        height: 29px;
+        width: 46px;
+        height: 46px;
         margin-right: 10px;
     }
 
@@ -676,8 +710,8 @@
     }
 
     .logo a img{
-        width: 27px;
-        height: 27px;
+        width: 46px;
+        height: 46px;
     }
 
     .humburger-container{
@@ -1046,8 +1080,8 @@
     }
 
     .logo a img{
-        width: 26px;
-        height: 26px;
+        width: 46px;
+        height: 46px;
     }
 
     .humburger-container{
@@ -1353,8 +1387,8 @@
     }
 
     .logo a img{
-        width: 30px;
-        height: 30px;
+        width: 46px;
+        height: 46px;
         margin-right: 10px;
     }
 

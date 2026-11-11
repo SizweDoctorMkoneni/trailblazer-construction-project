@@ -89,7 +89,7 @@ html,body{
         2. Navigation-logo-CTA
 --------------------------------------*/
 .Navigation-logo-CTA{
-	height: 10vh;
+	height: 12vh;
 	background-color: #fff;
     border-bottom: transparent;
     box-shadow: 0 3px 15px rgba(0,0,0,.2);
@@ -117,8 +117,8 @@ html,body{
 }
 
 .logo a img{
-	width: 44px;
-	height: 44px;
+	width: 45px;
+	height: 45px;
 	margin-right: 10px;
 }
 
@@ -159,7 +159,7 @@ header{
 
 .CTA:hover{
 	cursor: pointer;
-	background-color: orange;
+	background-color: #2e3244;
 }
 
 .CTA a{
