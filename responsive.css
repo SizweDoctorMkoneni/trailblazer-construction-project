@@ -122,6 +122,17 @@
         margin: 30px auto 30px auto;
         border-radius: 10px;
     }
+    .carousel-button{
+        top: 55%;
+    }
+
+    .carousel-button.prev{
+        left: 3rem;
+    }
+
+    .carousel-button.next{
+        right: 3rem;
+    }
 
     .projects-content .wrapper{
         width: 100%;
@@ -275,6 +286,10 @@
 
     .CTA a{
         font-size: 0.8rem;
+    }
+
+    .carousel-button{
+        top: 56.5%;
     }
 }
 
@@ -535,6 +550,20 @@
         margin: 40px auto;
         width: 80%;
         height: 100%;
+    }
+
+    .carousel-button{
+        top: 62.6%;
+        z-index: 1;
+        font-size: 1.7rem;
+    }
+
+    .carousel-button.prev{
+        left: 1rem;
+    }
+
+    .carousel-button.next{
+        right: 1rem;
     }
 
     .projects-content .wrapper{
@@ -892,6 +921,17 @@
         margin: 40px auto;
         width: 85%;
         height: 100%;
+    }
+    .carousel-button{
+        font-size: 1.4rem;
+    }
+
+    .carousel-button.prev{
+        left: 0.5rem;
+    }
+
+    .carousel-button.next{
+        right: 0.5rem;
     }
 
     .projects-content .wrapper{
