@@ -29,15 +29,21 @@ document.addEventListener('DOMContentLoaded', () =>{
     });
 
     // Popup image for project gallery
-    document.querySelectorAll(".project-gallery-content img").forEach(image => {
-        image.onclick = () =>{
-            document.querySelector(".popup-image").style.display = "block";
-            document.querySelector(".popup-image img").src = image.getAttribute("src");
-        }
-    });
+    const popup = document.querySelector(".popup-image");
+    const popupImage = popup?.querySelector("img");
+    const popupCloseButton = popup?.querySelector("i");
 
-    document.querySelector(".popup-image i").onclick = () =>{
-            document.querySelector(".popup-image").style.display = "none";
+    if (popup && popupImage && popupCloseButton) {
+        document.querySelectorAll(".project-gallery-content img").forEach(image => {
+            image.addEventListener("click", () => {
+                popup.style.display = "block";
+                popupImage.src = image.getAttribute("src");
+            });
+        });
+
+        popupCloseButton.addEventListener("click", () => {
+            popup.style.display = "none";
+        });
     }
 
     //Functionality for image slider buttons
@@ -52,10 +58,12 @@ document.addEventListener('DOMContentLoaded', () =>{
             let newIndex = [...slides.children].indexOf(activeSlide) + offset;
 
             if (newIndex < 0) newIndex = slides.children.length - 1;
-            if (newIndex >= slides.children.length) newIndex - 0;
+            if (newIndex >= slides.children.length) newIndex = 0;
 
-            slides.children[newIndex].dataset.active = true;
+            const newActiveSlide = slides.children[newIndex];
+            newActiveSlide.dataset.active = true;
             delete activeSlide.dataset.active;
+            slides.style.transform = `translateX(-${newIndex * 100}%)`;
         })
     })
 });

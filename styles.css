@@ -467,6 +467,11 @@ header{
 	animation: slide 16s infinite;
 }
 
+.projects-content .wrapper{
+	animation: none;
+	transition: transform .6s ease;
+}
+
 @keyframes slide{
 	0%{
         transform: translate(0);
