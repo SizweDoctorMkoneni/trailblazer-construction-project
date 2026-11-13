@@ -924,6 +924,7 @@
     }
     .carousel-button{
         font-size: 1.4rem;
+        top: 62%;
     }
 
     .carousel-button.prev{
@@ -1617,6 +1618,10 @@
     .project-gallery-container .popup-image img{
         width: 95%;
         height: 55%;
+    }
+
+    .carousel-button{
+        top: 63%;
     }
 
     .testimonials-container{
