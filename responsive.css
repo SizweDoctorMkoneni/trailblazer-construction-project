@@ -554,7 +554,7 @@
 
     .carousel-button{
         top: 62.6%;
-        z-index: 1;
+        z-index: 0;
         font-size: 1.7rem;
     }
 
@@ -763,7 +763,7 @@
 
 
     .nav.active{
-        top: 12vh;
+        top: 10.5vh;
         left: 0;
         right: 0;
         width: auto;
@@ -1089,6 +1089,7 @@
         flex-direction: column;
         justify-content: space-around;
         padding-bottom: 30px;
+        width: 90%;
     }
 
     .footer-container p{
@@ -1099,6 +1100,46 @@
 
     .footer-container .fa-heart{
         color: red;
+    }
+
+    .hire-us-container{
+        padding: 20px;
+    }
+
+    .hire-us-header h1{
+        font-size: 1.3rem;
+        width: 90%;
+    }
+
+    .hire-us-form form h2{
+        font-size: 1rem;
+    }
+
+    .hire-us-form form fieldset{
+        margin-bottom: 40px;
+        padding-bottom: 0;
+    }
+
+    .hire-us-form form fieldset div{
+        width: 100%;
+    }
+
+    input[type="text"], input[type="email"], input[type="tel"], input[type="tel"], select{
+        font-size: 14px;
+        color: #6a708e;
+    }
+
+    .hire-us-form form .project-description{
+        width: 100%;
+    }
+
+    .hire-us-form form .message-btn .btn{
+        width: 70%;
+        padding: 15px;
+    }
+
+    .hire-us-form form .message-btn .btn:hover{
+        cursor: none;
     }
 }
 
@@ -1143,7 +1184,7 @@
     .nav.active{
         top: 10vh;
         left: 0;
-        padding: 40px;
+        padding: 25px;
         height: 53vh;
     }
 
@@ -1403,6 +1444,10 @@
     .footer-container .fa-heart{
         color: red;
     }
+
+    .hire-us-header h1{
+        width: 95%;
+    }
 }
 
 /*******************************
@@ -1624,6 +1669,14 @@
         top: 63%;
     }
 
+    .carousel-button.prev{
+        left: 0.1rem;
+    }
+
+    .carousel-button.next{
+        right: 0.1rem;
+    }
+
     .testimonials-container{
         width: 100%;
         padding: 20px;
@@ -1709,6 +1762,23 @@
 
     .footer-container .fa-heart{
         color: red;
+    }
+
+      .hire-us-container{
+        padding: 0;
+    }
+
+    .hire-us-header h1{
+        font-size: 1.2em;
+        width: 100%;
+    }
+
+    .hire-us-form form fieldset{
+        margin-bottom: 35px;
+    }
+
+    .hire-us-form form .message-btn .btn{
+        width: 80%;
     }
 
 }
