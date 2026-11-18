@@ -192,16 +192,18 @@ header{
 	text-align: center;
 	margin-top: 70px;
 	padding: 20px;
-	background-color:aqua;
+	background-color:rgba(0,0,0,.4);
 }
 
 .hero-content h1{
 	font-size: 3rem;
 	margin-bottom: 20px;
+	color: #ffff;
 }
 
 .hero-content p{
 	margin-bottom: 50px;
+	color: #ffff;
 }
 
 .hero-btns{
@@ -215,6 +217,10 @@ header{
 .hero-btns button{
 	margin: 0 20px;
 	width: 150px;
+}
+
+.hero-btns button a{
+	color: white;
 }
 
 .hero-btns button:nth-of-type(1){
@@ -437,27 +443,25 @@ header{
 .carousel-button{
 	position: absolute;
 	font-size: 2rem;
-	top: 51%;
+	top: 52%;
 	transform: translateY(-50%);
-	color: #fff;
+	color: #6a708e;
 	cursor: pointer;
 	padding: 0 .5rem;
-	background-color: rgba(0,0,0,.1);
 	z-index: 0;
 	border-radius: .5rem;
 }
 
 .carousel-button:hover, .carousel-button:focus{
-	color: white;
 	background-color: rgba(0,0,0,.2);
 }
 
 .carousel-button.prev{
-	left: 4rem;
+	left: 5rem;
 }
 
 .carousel-button.next{
-	right: 4rem;
+	right: 5rem;
 }
 
 .wrapper{
@@ -515,17 +519,17 @@ header{
 .project-details{
 	position: absolute;
 	bottom: 30%;
-	left: 25%;
+	left: 28%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	width: 40%;
-	background-color:aqua;
+	background-color:rgba(0,0,0,.4);
 	padding: 20px;
 }
 
 .project-details h4{
-	color: #43485c;
+	color: #ffff;
 	font-size: 1.4rem;
 	margin-bottom: 30px;
 }
@@ -678,6 +682,10 @@ header{
 .cta-btns button{
 	margin: 0 20px;
 	width: 150px;
+}
+
+.cta-btns button a{
+	color: white;
 }
 
 .cta-btns button:nth-of-type(1){
@@ -950,3 +958,123 @@ input[type="text"], input[type="email"], input[type="tel"], textarea{
 	height: 550px;
     object-fit: cover;
 }
+
+/*-------------------------------------
+        11. Hire us form
+-------------------------------------*/
+
+.hire-us{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	transition: .3s ease;
+}
+
+.hire-us-container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.hire-us-header{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 40px;
+	margin-top: 10vh;
+}
+
+.hire-us-header h4{
+	border-bottom: 2px solid orange;
+}
+
+.hire-us-header h1{
+	font-size: 2rem;
+	margin-top: 30px;
+	width: 100%;
+	text-align: center;
+}
+
+.hire-us-form{
+	display: flex;
+	width: 100%;
+	justify-content: center;
+}
+
+.hire-us-form form{
+	width: 75%;
+}
+
+.hire-us-form form h2{
+	font-size: 1.3rem;
+	margin-bottom: 10px;
+}
+
+.hire-us-form form fieldset{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+	border: none;
+	margin-bottom: 60px;
+}
+
+.hire-us-form form fieldset div{
+	display: flex;
+	flex-direction: column;
+	width: 45%;
+}
+
+.hire-us-form form fieldset div input, select{
+	width: 100%;
+	height: auto;
+	padding: 10px;
+	border-radius: 8px;
+	border: 1px solid #6a708e;
+	height: 44px;
+}
+
+input[type="text"], input[type="email"], input[type="tel"], input[type="tel"], select{
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+	color: #505475;
+}
+
+.hire-us-form form .project-description{
+	display: flex;
+	width: 92.4%;
+	flex-direction: column;
+}
+
+.hire-us-form form .project-description textarea{
+	padding: 10px;
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+	color: #505475;
+	border: 1px solid #505475;
+	border-radius: 10px;
+}
+
+.hire-us-form form .message-btn{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 30px;
+}
+
+.hire-us-form form .message-btn .btn{
+	width: 40%;
+	height: auto;
+	padding: 20px;
+	margin-top: 20px;
+	background-color: #6a708e;
+	border-radius: 10px;
+	color: #fff;
+}
+
+.hire-us-form form .message-btn .btn:hover{
+	background-color: #2e3244;
+	cursor: pointer;
+}
+
+
